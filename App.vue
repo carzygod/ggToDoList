@@ -88,6 +88,7 @@
 					order:false,
 					history:false
 				},
+				baseUrl : "http://ddl.sidcloud.cn:10000/api"
 			}
 		
 	}

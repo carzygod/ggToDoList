@@ -1,4 +1,4 @@
-const baseUrl = "https://iot.sidcloud.cn:10000"; 
+const baseUrl = "https://ddl.sidcloud.cn:10000/api"; 
 // const baseUrl = "http://shop.sidcloud.cn:30080/api";
 const apis = {
 	
@@ -11,6 +11,11 @@ const apis = {
 	// wechat
 	wechatInfo:baseUrl+"/wechat/info",
 	wechatLogin:baseUrl+"/wechat/login",
+	
+	//数据接口
+	getPhone:baseUrl+"/info/getPhone",
+	getList:baseUrl+"{{baseUrl}}/info/getList",
+	
 };
 
 export default apis
